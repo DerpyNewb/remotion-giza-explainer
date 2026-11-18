@@ -1,15 +1,19 @@
 {
-  "name": "remotion-giza",
+  "name": "remotion-giza-explainer",
   "version": "1.0.0",
-  "description": "My Remotion video",
-  "repository": {},
-  "license": "UNLICENSED",
+  "description": "A narrated Great Pyramid explainer built in Remotion, with every cut and graphic timed to the narrator's words",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DerpyNewb/remotion-giza-explainer"
+  },
+  "license": "MIT",
   "engines": {
     "node": "^20.19.0 || ^22.13.0 || >=24"
   },
   "private": true,
   "dependencies": {
     "@remotion/cli": "4.0.544",
+    "@remotion/media": "4.0.544",
     "react": "19.3.1",
     "react-dom": "19.3.1",
     "remotion": "4.0.544"
